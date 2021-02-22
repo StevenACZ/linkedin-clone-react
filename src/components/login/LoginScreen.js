@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
 import { AuthContext } from '../../auth/AuthContext'
 import useForm from '../../customHooks/useForm'
 import logoLinkedin from '../../images/linkedin.svg'
