@@ -1,0 +1,15 @@
+.link {
+  font-weight: 700;
+  line-height: 32px;
+  color: #0a66c2;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: 324ms all cubic-bezier(0, 0, 0.2, 1);
+  padding: 8px;
+  border-radius: 28px;
+
+  &:hover {
+    background: #d0e8ff;
+    text-decoration: underline;
+  }
+}
