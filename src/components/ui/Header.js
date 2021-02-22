@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import 'remixicon/fonts/remixicon.css'
 
-export const Navbar = () => {
+export const Header = () => {
   return (
     <header className="header">
       <div className="global-nav__wrapper">
