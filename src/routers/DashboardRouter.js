@@ -5,12 +5,12 @@ import { JobsScreen } from '../components/jobs/JobsScreen'
 import { MessagingScreen } from '../components/messaging/MessagingScreen'
 import { NetworkScreen } from '../components/network/NetworkScreen'
 import { NotificationsScreen } from '../components/notifications/NotificationsScreen'
-import { Navbar } from '../components/ui/Navbar'
+import { Header } from '../components/ui/Header'
 
 export const DashboardRouter = () => {
   return (
     <>
-      <Navbar />
+      <Header />
 
       <div className="main-content">
         <Switch>
