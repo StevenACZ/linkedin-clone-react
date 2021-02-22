@@ -1,7 +1,10 @@
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
 @import './base/base';
 @import './base/typography';
 
-// @import "./components/aside";
+@import "./components/link";
 
 @import "./layout/header";
 @import "./layout/main";
