@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { AuthContext } from '../../auth/AuthContext'
 import useForm from '../../customHooks/useForm'
 import logoLinkedin from '../../images/linkedin.svg'
+import { types } from '../../types/types'
 
 export const LoginScreen = () => {
+
+  const { dispatch } = useContext( AuthContext )
 
   const initialState = {
     email: '',
@@ -11,6 +16,16 @@ export const LoginScreen = () => {
 
   const [ formValues, handleInputChange, reset ] = useForm( initialState );
 
+  const handleLogin = () => {
+    dispatch({
+      type: types.login,
+      payload: {
+        user: initialState
+      }
+    })
+
+    reset()
+  }
   
   const { email, password } = formValues;
 
@@ -57,7 +72,12 @@ export const LoginScreen = () => {
             <a className="link" href='/'>Forgot password?</a>
           </div>
 
-          <input className="form__btn-submit" type="submit" value="Sign in"/>
+          <button
+            onClick={ handleLogin }
+            className="form__btn-submit"
+          >
+            Sign in
+          </button>
         </form>
 
         <div className="join-now">
