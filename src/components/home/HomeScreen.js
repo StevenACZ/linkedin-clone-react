@@ -31,12 +31,12 @@ export const HomeScreen = () => {
           </div>
 
           <div className="user-info__block-3">
-            <i class="ri-folder-fill"></i>
+            <i className="ri-folder-fill"></i>
             <p>See all Premiun features</p>
           </div>
 
           <div className="user-info__block-4">
-            <i class="ri-bookmark-fill"></i>
+            <i className="ri-bookmark-fill"></i>
             <p>My items</p>
           </div>
         </div>
