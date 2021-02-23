@@ -11,7 +11,7 @@ export const Header = () => {
 
           <label className="global-nav__search">
             <input placeholder="Search"/>
-            <i class="ri-search-line"></i>
+            <i className="ri-search-line"></i>
           </label>
         </div>
 
@@ -22,7 +22,7 @@ export const Header = () => {
             exact
             to="/home"
           >
-            <i class="icon ri-home-2-line"></i>
+            <i className="icon ri-home-2-line"></i>
             <span>Home</span>
           </NavLink>
 
@@ -32,7 +32,7 @@ export const Header = () => {
             exact
             to="/network"
           >
-            <i class="icon ri-user-voice-fill"></i>
+            <i className="icon ri-user-voice-fill"></i>
             <span>My Network</span>
           </NavLink>
 
@@ -42,7 +42,7 @@ export const Header = () => {
             exact
             to="/jobs"
           >
-            <i class="icon ri-briefcase-4-fill"></i>
+            <i className="icon ri-briefcase-4-fill"></i>
             <span>Jobs</span>
           </NavLink>
 
@@ -52,7 +52,7 @@ export const Header = () => {
             exact
             to="/messaging"
           >
-            <i class="icon ri-chat-1-line"></i>
+            <i className="icon ri-chat-1-line"></i>
             <span>Messaging</span>
           </NavLink>
 
@@ -62,7 +62,7 @@ export const Header = () => {
             exact
             to="/notifications"
           >
-            <i class="icon ri-notification-2-fill"></i>
+            <i className="icon ri-notification-2-fill"></i>
             <span>Notifications</span>
           </NavLink>
         </div>
